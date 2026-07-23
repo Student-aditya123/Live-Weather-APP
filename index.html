@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lucknow Live Weather</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-card">
+    <h2>📍 Lucknow Weather</h2>
+    <div id="loadingStatus" class="status">Click below to load live weather</div>
+    
+    <div id="weatherDisplay" style="display: none;">
+      <div id="tempVal" class="temp">--°C</div>
+      <div id="windVal" class="details">Wind: -- km/h</div>
+    </div>
+    <button id="refreshBtn" onclick="loadWeather()">Get Live Weather</button>
+  </div>
+  </body>
+</html>
